@@ -1,0 +1,12 @@
+number = 7
+guess = -1
+print("Number guessing game!")
+while guess != number:
+    guess = int(input("Please enter the number you guessed："))
+ 
+    if guess == number:
+        print("Congratulations, you guessed it！")
+    elif guess < number:
+        print("Guess the number is small...")
+    elif guess > number:
+        print("Guess the number is big...")
